@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!-- Richard Noteboom   4/24/2020 -->
+<html lang="en">
+<head>
+  <title>Cats</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+  </style>
+</head>
+
+<body>
+  <!-- Nav Bar -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Cat Photos</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="../index.html">Home</a></li>
+          <li><a href="../html/Gallery.html" data-toggle="tooltip2" data-placement="bottom" title="View Cat Photos">Gallery</a></li>
+          <li><a href="#">Dead End</a></li>
+          <li><a href="#">Contact <span class="glyphicon glyphicon-envelope"></span></a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Cat Photos</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="../index.html">Home</a></li>
+          <li><a href="../html/Gallery.html" data-toggle="tooltip2" data-placement="bottom" title="View Cat Photos">Gallery</a></li>
+          <li><a href="#">Dead End</a></li>
+          <li><a href="#">Contact <span class="glyphicon glyphicon-envelope"></span></a></li>
+        </ul>
+       </div>
+    </nav>
+
+<!-- Contact Form -->
+<div class="container-fluid bg-grey">
+  <h2 class="text-center">CONTACT</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <p>Contact us and we'll get back to you within 24 hours.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Orlando, US</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +00 321321321</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+    </div>
+    <div class="col-sm-7">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
